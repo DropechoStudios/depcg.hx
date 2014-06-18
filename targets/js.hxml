@@ -1,0 +1,6 @@
+--times
+
+-cp src
+-js bin/js/depcg.js
+
+--macro include('com.dropecho.noise.modules')
