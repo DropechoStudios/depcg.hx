@@ -6,6 +6,6 @@ class Add extends Module {
     }
 
     public override function getValue(x : Float, y : Float, z : Float) : Float {
-        return getInputValue(0, x, y, z) + getInputValue(0, x, y, z);
+        return getInputValue(0, x, y, z) + getInputValue(1, x, y, z);
     }
 }
