@@ -1,4 +1,4 @@
-package com.dropecho.noise.tests.modules;
+package tests.modules;
 
 import com.dropecho.noise.modules.Constant;
 import com.dropecho.noise.modules.Step;
@@ -30,19 +30,19 @@ class StepTests extends BaseTestCase {
 
         module.setInputModule(0, new Constant(-1));
         assertEquals(-1.0, module.getValue(0,0,0));
-        
+
 		module.setInputModule(0, new Constant(-0.5));
         assertEquals(-1.0, module.getValue(0,0,0));
-        
+
 		module.setInputModule(0, new Constant(0));
         assertEquals(0.0, module.getValue(0,0,0));
-        
+
 		module.setInputModule(0, new Constant(0.5));
         assertEquals(0.0, module.getValue(0,0,0));
-        
+
 		module.setInputModule(0, new Constant(1));
         assertEquals(1.0, module.getValue(0,0,0));
-        
+
 		module.setInputModule(0, new Constant(5));
         assertEquals(1.0, module.getValue(0,0,0));
     }

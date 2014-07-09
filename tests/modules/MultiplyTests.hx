@@ -1,4 +1,4 @@
-package com.dropecho.noise.tests.modules;
+package tests.modules;
 
 import com.dropecho.noise.modules.Constant;
 import com.dropecho.noise.modules.Multiply;

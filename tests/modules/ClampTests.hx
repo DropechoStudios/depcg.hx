@@ -1,4 +1,4 @@
-package com.dropecho.noise.tests.modules;
+package tests.modules;
 
 import com.dropecho.noise.modules.Constant;
 import com.dropecho.noise.modules.Clamp;
@@ -22,7 +22,7 @@ class ClampTests extends BaseTestCase {
         module.setInputModule(0, new Constant(10));
         assertEquals(1.0, module.getValue(0,0,0));
     }
-    
+
 	public function test_clamp_should_return_the_min_if_val_is_under_min(){
         module.setInputModule(0, new Constant(-10));
         assertEquals(-1.0, module.getValue(0,0,0));

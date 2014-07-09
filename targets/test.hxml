@@ -3,4 +3,4 @@
 -cp src
 -neko bin/tests/tests.n
 --macro include('com.dropecho.noise')
--main com.dropecho.noise.tests.TestRunner
+-main tests.TestRunner

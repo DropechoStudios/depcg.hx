@@ -1,4 +1,4 @@
-package com.dropecho.noise.tests.modules;
+package tests.modules;
 
 import com.dropecho.noise.modules.Constant;
 import com.dropecho.noise.modules.Invert;
@@ -22,7 +22,7 @@ class InvertTests extends BaseTestCase {
         module.setInputModule(0, new Constant(2));
         assertEquals(-2.0, module.getValue(0,0,0));
     }
-    
+
 	public function test_add_should_return_the_inverse_negative_input_value(){
         module.setInputModule(0, new Constant(-2));
         assertEquals(2.0, module.getValue(0,0,0));

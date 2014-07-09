@@ -1,0 +1,6 @@
+version=2.1.0
+src=src/com/dropecho/noise/tests
+bin=bin
+report=report
+hxml=targets/test.hxml
+classPaths=src/com/dropecho/noise
