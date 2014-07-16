@@ -1,6 +1,8 @@
 --times
 
 -cp src
+-cp tests
+-lib munit
 -neko bin/tests/neko_test.n
 --macro include('com.dropecho.noise')
--main tests.TestRunner
+-main TestMain

@@ -6,6 +6,6 @@
   },
   "scripts" :{
   	"build" : "haxe targets/clean.hxml && haxe targets/js.hxml",
-	"test" : "haxe targets/clean.hxml && haxe targets/test.hxml && neko bin/tests/tests.n"
+	"test" : "haxelib run munit test"
   }
 }

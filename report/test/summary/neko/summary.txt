@@ -1,0 +1,7 @@
+result:true
+count:38
+pass:38
+fail:0
+error:0
+ignore:0
+time:0.00499916076660156

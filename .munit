@@ -1,6 +1,6 @@
 version=2.1.0
-src=src/com/dropecho/noise/tests
-bin=bin
+src=tests
+bin=bin/munit
 report=report
-hxml=targets/test.hxml
-classPaths=src/com/dropecho/noise
+hxml=targets/munit.hxml
+classPaths=src
