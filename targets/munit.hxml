@@ -4,5 +4,7 @@
 -cp tests
 -lib munit
 -neko bin/tests/neko_test.n
+-lib mcover
+--macro mcover.MCover.coverage([''], ['src'], [])
 --macro include('com.dropecho.noise')
 -main TestMain

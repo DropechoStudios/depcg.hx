@@ -6,6 +6,6 @@
   },
   "scripts" :{
   	"build" : "haxe targets/clean.hxml && haxe targets/js.hxml",
-	"test" : "haxelib run munit test"
+	"test" : "haxelib run munit test -coverage"
   }
 }
